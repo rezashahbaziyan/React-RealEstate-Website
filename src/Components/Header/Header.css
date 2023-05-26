@@ -9,3 +9,11 @@
     background: var(--black);
     color: white;
 }
+
+.h-menu {
+    gap: 2rem;
+}
+
+.h-menu>*:hover {
+    cursor: pointer;
+}
