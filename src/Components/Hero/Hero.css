@@ -17,6 +17,10 @@
 .hero-left {
     position: relative;
     z-index: 1;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: space-between;
+    height: 30rem;
 }
 
 .hero-title>h1 {

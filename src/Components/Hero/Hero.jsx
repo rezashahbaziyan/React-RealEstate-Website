@@ -14,8 +14,8 @@ const Hero = () => {
                 <h1>Discover <br/> Most Suitable <br/> Property</h1>
               </div>
               <div className="flexColStart hero-des">
-                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <span className='secondaryText'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                <span className='secondaryText'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
               </div>
               <div className="flexCenter search-bar">
                 <HiLocationMarker color='var(--blue)' size={25}/>
