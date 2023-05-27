@@ -23,13 +23,33 @@ const Hero = () => {
                 <button className='button'>Search</button>
               </div>
               <div className="flexCenter stats">
-                <div className="flexColStart stat">
+              <div className="flexColStart stat">
                   <span>
-                    <CountUp start={88000} end={90000} duration={4}/>
+                    <CountUp start={5000} end={9000} duration={4}/>
                     <span>+</span>
                   </span>
                   <span>
                     Premium Products
+                  </span>
+                </div>
+
+                <div className="flexColStart stat">
+                  <span>
+                    <CountUp start={1950} end={2000} duration={4}/>
+                    <span>+</span>
+                  </span>
+                  <span>
+                    Happy Customers
+                  </span>
+                </div>
+
+                <div className="flexColStart stat">
+                  <span>
+                    <CountUp end={28} duration={4}/>
+                    <span>+</span>
+                  </span>
+                  <span>
+                    Award Winning
                   </span>
                 </div>
               </div>
