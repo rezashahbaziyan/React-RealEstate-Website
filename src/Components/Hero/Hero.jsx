@@ -6,7 +6,16 @@ const Hero = () => {
     <section className='hero-wrapper'>
         <div className="paddinds innerWidth flexCenter hero-container">
 
-            <div className="hero-left"></div>
+            <div className="hero-left">
+              <div className="hero-title">
+                <h1>Discover <br/> Most Suitable <br/> Property</h1>
+              </div>
+              <div className="hero-des">
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div className="search-bar"></div>
+            </div>
             <div className="flexCenter hero-right">
               <div className="image-container">
                 <img src="./hero-image.png" alt="" />
