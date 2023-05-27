@@ -16,7 +16,7 @@ const Residences = () => {
             <Swiper>
                 {data.map((card, i)=>(
                     <SwiperSlide key={i}>
-                        <div className="r-card">
+                        <div className="flexColStart r-card">
                             <img src={card.image} alt="home" />
 
                             <span className="secondaryText r-price">
