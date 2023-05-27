@@ -16,3 +16,8 @@
     border-radius: 15rem 15rem 0 0;
     border: 8px solid rgba(225, 255, 255, 0.12);
 }
+
+.image-container>img {
+    width: 100%;
+    height: 100%;
+}
