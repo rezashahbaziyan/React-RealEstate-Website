@@ -3,6 +3,8 @@ import {Swiper, SwiperSlide, useSwiper} from 'swiper/react'
 import "Swiper/css";
 import "./Residencies.css";
 import data from '../../utils/slider.json'
+import { sliderSettings } from '../../utils/common';
+
 const Residences = () => {
   return (
     <section className="r-wrapper">
@@ -13,7 +15,7 @@ const Residences = () => {
                 <span className='primaryText'>Popular Residencies</span>
             </div>
 
-            <Swiper>
+            <Swiper {...sliderSettings}>
                 {data.map((card, i)=>(
                     <SwiperSlide key={i}>
                         <div className="flexColStart r-card">
