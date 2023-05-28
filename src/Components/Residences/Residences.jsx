@@ -16,6 +16,7 @@ const Residences = () => {
             </div>
 
             <Swiper {...sliderSettings}>
+                <SliderButtons/>
                 {data.map((card, i)=>(
                     <SwiperSlide key={i}>
                         <div className="flexColStart r-card">
@@ -37,4 +38,14 @@ const Residences = () => {
   )
 }
 
-export default Residences
+export default Residences;
+
+const SliderButtons = () =>{
+    const swiper = useSwiper();
+    return(
+        <div className='r-button'>
+            <button onClick={()=> swiper.slidePrev()}>&lt;</button>
+            <button onClick={()=> swiper.slideNext()}>&gt;</button>
+        </div>
+    )
+}
