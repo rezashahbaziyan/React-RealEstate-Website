@@ -49,3 +49,14 @@
     font-size: 1.1rem;
     font-weight: 600;
 }
+
+.mode:hover {
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+
+.mode .button:hover {
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
