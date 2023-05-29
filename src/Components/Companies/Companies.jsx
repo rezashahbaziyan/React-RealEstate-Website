@@ -3,8 +3,8 @@ import "./Companies.css";
 
 const Companies = () => {
   return (
-    <section className="c-wrapper">
-        <div className="paddings innerwidth flexCenter c-container">
+    <section className="C-wrapper">
+        <div className="paddings innerwidth flexCenter C-container">
             <img src="./prologis.png" alt="" />
             <img src="./tower.png" alt="" />
             <img src="./equinix.png" alt="" />
