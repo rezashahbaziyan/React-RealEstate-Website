@@ -38,6 +38,7 @@ const Residences = () => {
   )
 }
 
+
 export default Residences;
 
 const SliderButtons = () =>{
