@@ -1,4 +1,4 @@
-.r-container {
+.r-containers {
     overflow: hidden;
     position: relative;
 }
@@ -51,7 +51,7 @@
     position: absolute;
     gap: 1rem;
     top: -4rem;
-    right: 5rem;
+    right: 1rem;
 }
 
 .r-buttons button {
