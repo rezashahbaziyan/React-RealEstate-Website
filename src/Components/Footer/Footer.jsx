@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <section className="f-wrapper">
-        <div className="paddings innerWith flexCenter f-container">
+        <div className="paddings innerWidth flexCenter f-container">
             {/* left side */}
             <div className="flexColStart">
                 <img src="./logo2.png" alt="" width={120}/>
