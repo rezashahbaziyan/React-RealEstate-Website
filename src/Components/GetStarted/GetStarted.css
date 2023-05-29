@@ -5,6 +5,7 @@
     border-radius: 10px;
     border: 6px solid #5d77d6;
     align-items: center;
+    text-align: center;
 }
 
 .inner-container .primaryText {
