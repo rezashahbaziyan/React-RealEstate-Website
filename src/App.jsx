@@ -18,10 +18,10 @@ function App() {
       </div>
       <Companies/>
       <Residences/>
-      {/* <Value/>
-      <Contact/>
-      <GetStarted/>
-      <Footer/> */}
+      <Value/>
+      {/* <Contact/> */}
+      {/* <GetStarted/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
