@@ -14,7 +14,7 @@ function App() {
       <div>
         <div className="white-gradient"/>
         <Header/>
-        {/* <Hero/> */}
+        <Hero/>
       </div>
       {/* <Companies/>
       <Residences/>

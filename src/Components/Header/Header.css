@@ -27,6 +27,7 @@
     }
 
     .h-menu {
+        z-index: 99;
         color: var(--black);
         position: absolute;
         top: 3rem;
