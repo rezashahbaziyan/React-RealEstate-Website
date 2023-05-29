@@ -16,3 +16,25 @@
 .h-menu>*:hover {
     cursor: pointer;
 }
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .h-menu {
+        color: var(--black);
+        position: absolute;
+        top: 3rem;
+        right: 4rem;
+        background: white;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 2rem;
+        padding: 3rem;
+    }
+}
