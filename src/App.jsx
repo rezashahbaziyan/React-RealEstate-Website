@@ -8,8 +8,6 @@ import Contact from "./Components/Contact/Contact";
 import GetStarted from "./Components/GetStarted/GetStarted";
 import Footer from "./Components/Footer/Footer";
 
-
-
 function App() {
   return (
     <div className="App">
